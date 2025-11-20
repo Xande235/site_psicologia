@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Intervenção Integrativa e Hipnose Clínica</title>
+    <!-- Carrega o Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Configuração de Fonte Global */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Slate 50 */
+        }
+        /* Estilo para links de navegação suave */
+        html {
+            scroll-behavior: smooth;
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 8px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 70%;
+            height: 4px;
+            background-color: #06b6d4; /* Cyan 600 */
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 1. BARRA DE NAVEGAÇÃO -->
+    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-xl font-bold text-cyan-700">Elaine Frontor</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#apresentacao" class="text-gray-600 hover:bg-cyan-50 hover:text-cyan-700 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Apresentação</a>
+                        <a href="#objetivo" class="text-gray-600 hover:bg-cyan-50 hover:text-cyan-700 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Objetivo</a>
+                        <a href="#fundamentacao" class="text-gray-600 hover:bg-cyan-50 hover:text-cyan-700 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Fundamentação</a>
+                        <a href="#beneficios" class="text-gray-600 hover:bg-cyan-50 hover:text-cyan-700 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Benefícios</a>
+                        <a href="#contato" class="bg-cyan-600 text-white hover:bg-cyan-700 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Contato</a>
+                    </div>
+                </div>
+                <!-- Botão Mobile Menu (Oculto, apenas para estrutura) -->
+                <button class="md:hidden text-gray-500 hover:text-gray-700 focus:outline-none" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. SEÇÃO PRINCIPAL (HERO) -->
+    <header class="bg-cyan-600 text-white pt-16 pb-24 md:pt-24 md:pb-32 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="bg-white text-cyan-600 p-3 inline-block rounded-full shadow-lg mb-6">
+                <i class="fas fa-heart-pulse text-3xl"></i>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+                PROPOSTA DE IMPLANTAÇÃO
+            </h1>
+            <h2 class="text-2xl sm:text-3xl font-light mb-6">
+                Intervenção Integrativa e Hipnose Clínica no Ambiente Cirúrgico
+            </h2>
+            <p class="text-lg font-semibold text-cyan-200">
+                Por: Elaine Cristina Frontor – Terapeuta Integrativa
+            </p>
+            <a href="#objetivo" class="mt-8 inline-block bg-white text-cyan-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-cyan-50 transition duration-300 transform hover:scale-105">
+                Ver Detalhes da Proposta
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. APRESENTAÇÃO PROFISSIONAL -->
+        <section id="apresentacao" class="py-16 md:py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">1. Apresentação Profissional</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <div>
+                        <p class="text-xl font-semibold mb-4 text-cyan-700">
+                            Meu nome é Elaine Cristina Frontor, terapeuta integrativa formada desde 2021.
+                        </p>
+                        <p class="mb-6">Atuo com sólida experiência prática com pacientes em sofrimento emocional, dor, ansiedade, medo e estresse intenso.</p>
+                        
+                        <h3 class="text-2xl font-semibold mt-6 mb-4 text-gray-700">Áreas de Atuação e Fundamentos:</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li class="flex items-start"><i class="fas fa-check-circle text-cyan-500 mt-1 mr-3"></i> Hipnose e Programação Neurolinguística (PNL)</li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-cyan-500 mt-1 mr-3"></i> Neurotransformação focada em neuroplasticidade cerebral</li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-cyan-500 mt-1 mr-3"></i> Medicina Germânica – abordagem emocional e biológica</li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-cyan-500 mt-1 mr-3"></i> Técnicas de regulação emocional e redução de estresse</li>
+                            <li class="flex items-start"><i class="fas fa-check-circle text-cyan-500 mt-1 mr-3"></i> Atendimento terapêutico individual e em grupos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="p-6 bg-cyan-50 rounded-xl shadow-inner border border-cyan-200">
+                        <h3 class="text-2xl font-bold mb-4 text-cyan-800">Foco no Cuidado Humanizado</h3>
+                        <ul class="space-y-4 text-base">
+                            <li class="flex items-start"><i class="fas fa-star text-cyan-600 mt-1 mr-3"></i> Comunicação tranquila, clara e compassiva.</li>
+                            <li class="flex items-start"><i class="fas fa-star text-cyan-600 mt-1 mr-3"></i> Facilidade para criar rapport, confiança e vínculo.</li>
+                            <li class="flex items-start"><i class="fas fa-star text-cyan-600 mt-1 mr-3"></i> Foco em redução de dor e otimização emocional.</li>
+                            <li class="flex items-start"><i class="fas fa-star text-cyan-600 mt-1 mr-3"></i> Escuta ativa, acolhimento e humanização do cuidado.</li>
+                        </ul>
+                        <p class="mt-6 text-sm italic text-gray-600">
+                            Minha missão é auxiliar na diminuição do sofrimento humano e promover um ambiente hospitalar mais equilibrado, acolhedor e seguro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. OBJETIVO DA PROPOSTA -->
+        <section id="objetivo" class="py-16 md:py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">2. Objetivo da Proposta</h2>
+                
+                <p class="text-xl mb-8">Apresentar ao hospital um projeto de intervenção integrativa baseado em hipnose clínica, técnicas de relaxamento profundo e recursos neurocognitivos, visando resultados concretos:</p>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-cyan-500">
+                        <i class="fas fa-gauge-high text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Redução de Ansiedade</h3>
+                        <p>Diminuir a ansiedade do paciente antes da cirurgia e melhorar a experiência geral.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-cyan-500">
+                        <i class="fas fa-syringe text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Otimização da Dor</h3>
+                        <p>Diminuir a percepção de dor no pós-operatório, favorecendo menor necessidade de analgésicos e opioides.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-cyan-500">
+                        <i class="fas fa-handshake text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Valor Institucional</h3>
+                        <p>Contribuir para o conceito, inovação e humanização do cuidado hospitalar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FUNDAMENTAÇÃO CLÍNICA -->
+        <section id="fundamentacao" class="py-16 md:py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">3. Fundamentação Clínica Resumida</h2>
+                
+                <div class="grid md:grid-cols-3 gap-8 items-center">
+                    <div class="md:col-span-2">
+                        <p class="text-xl mb-6 font-medium text-gray-700">
+                            Diversos estudos realizados em hospitais ao redor do mundo comprovam a eficácia da aplicação de hipnose clínica e técnicas de relaxamento no período pré-operatório.
+                        </p>
+                        <ul class="space-y-4 text-lg p-6 bg-cyan-50 rounded-xl">
+                            <li class="flex items-start"><i class="fas fa-flask text-cyan-600 mt-1 mr-3 w-5"></i> Reduz a percepção de dor após o procedimento.</li>
+                            <li class="flex items-start"><i class="fas fa-flask text-cyan-600 mt-1 mr-3 w-5"></i> Contribui para menor necessidade de opioides.</li>
+                            <li class="flex items-start"><i class="fas fa-flask text-cyan-600 mt-1 mr-3 w-5"></i> Favorece um despertar mais tranquilo e diminui tensão muscular.</li>
+                            <li class="flex items-start"><i class="fas fa-flask text-cyan-600 mt-1 mr-3 w-5"></i> Melhora a estabilidade emocional do paciente.</li>
+                        </ul>
+                        <p class="mt-6 text-base italic text-gray-600">
+                            É uma intervenção não invasiva, de baixo custo, segura e amplamente aceita por pacientes e equipes de saúde.
+                            <a href="#anexo" class="text-cyan-600 hover:text-cyan-800 font-semibold"> (Ver Referências Científicas - ANEXO)</a>
+                        </p>
+                    </div>
+                    <div class="md:col-span-1 text-center">
+                        <div class="inline-block p-8 bg-cyan-600 rounded-full text-white shadow-2xl">
+                            <i class="fas fa-hand-holding-medical text-6xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. COMO FUNCIONA A INTERVENÇÃO -->
+        <section id="intervencao" class="py-16 md:py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">4. Como funciona a intervenção proposta</h2>
+
+                <div class="relative pt-10">
+                    <!-- Linha do Tempo -->
+                    <div class="absolute inset-x-0 top-1/4 h-1 bg-cyan-200 hidden lg:block"></div>
+                    
+                    <div class="grid lg:grid-cols-3 gap-10">
+                        <!-- Etapa A: Pré-operatória -->
+                        <div class="relative bg-white p-8 rounded-xl shadow-lg border-t-4 border-cyan-600 hover:shadow-xl transition duration-300">
+                            <div class="lg:absolute lg:-top-6 lg:left-1/2 lg:-translate-x-1/2 bg-cyan-600 text-white rounded-full h-12 w-12 flex items-center justify-center font-bold text-xl mb-4 lg:mb-0 shadow-md">A</div>
+                            <h3 class="text-2xl font-bold mb-3 text-cyan-700 mt-4 lg:mt-0">Sessão Pré-Operatória</h3>
+                            <p class="font-semibold text-gray-600 mb-3">Duração: 20 a 30 minutos (Dia anterior ou manhã da cirurgia)</p>
+                            <ul class="list-disc list-inside text-gray-700 space-y-2 text-base">
+                                <li>Respiração guiada e relaxamento corporal.</li>
+                                <li>Hipnose clínica suave e visualização terapêutica.</li>
+                                <li>Sugestões positivas para estabilidade emocional.</li>
+                                <li>Técnicas de neuroplasticidade para modular dor e medo.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Etapa B: Internação -->
+                        <div class="relative bg-white p-8 rounded-xl shadow-lg border-t-4 border-cyan-600 hover:shadow-xl transition duration-300">
+                            <div class="lg:absolute lg:-top-6 lg:left-1/2 lg:-translate-x-1/2 bg-cyan-600 text-white rounded-full h-12 w-12 flex items-center justify-center font-bold text-xl mb-4 lg:mb-0 shadow-md">B</div>
+                            <h3 class="text-2xl font-bold mb-3 text-cyan-700 mt-4 lg:mt-0">Reforço Breve</h3>
+                            <p class="font-semibold text-gray-600 mb-3">Duração: 2 a 5 minutos (Momento da internação)</p>
+                            <p class="text-gray-700 text-base">Uma condução curta e focada com orientações tranquilizadoras para manutenção do estado de calma alcançado.</p>
+                        </div>
+
+                        <!-- Etapa C: Pós-Operatório -->
+                        <div class="relative bg-white p-8 rounded-xl shadow-lg border-t-4 border-cyan-600 hover:shadow-xl transition duration-300">
+                            <div class="lg:absolute lg:-top-6 lg:left-1/2 lg:-translate-x-1/2 bg-cyan-600 text-white rounded-full h-12 w-12 flex items-center justify-center font-bold text-xl mb-4 lg:mb-0 shadow-md">C</div>
+                            <h3 class="text-2xl font-bold mb-3 text-cyan-700 mt-4 lg:mt-0">Apoio Pós-Operatório</h3>
+                            <p class="font-semibold text-gray-600 mb-3">Recurso: Áudio Curto</p>
+                            <p class="text-gray-700 text-base">Sugestões de conforto, relaxamento e estímulo ao corpo para uma recuperação mais leve e estável, reduzindo o sofrimento percebido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. BENEFÍCIOS AO HOSPITAL -->
+        <section id="beneficios" class="py-16 md:py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">5. Benefícios ao Hospital</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Coluna Esquerda: Conforto e Segurança -->
+                    <div class="bg-indigo-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-4 text-indigo-800"><i class="fas fa-shield-alt mr-2"></i> Conforto e Segurança do Paciente</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start text-lg"><i class="fas fa-heart-pulse text-indigo-500 mt-1 mr-3"></i> **Menor Ansiedade Pré-Operatória:** Pacientes mais calmos.</li>
+                            <li class="flex items-start text-lg"><i class="fas fa-hand-holding-heart text-indigo-500 mt-1 mr-3"></i> **Menor Percepção de Dor:** Impacto direto no bem-estar pós-cirurgia.</li>
+                            <li class="flex items-start text-lg"><i class="fas fa-pills text-indigo-500 mt-1 mr-3"></i> **Redução no Uso de Opioides:** Contribuição para segurança e recuperação mais estável.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Coluna Direita: Vantagem Institucional -->
+                    <div class="bg-teal-50 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-4 text-teal-800"><i class="fas fa-lightbulb mr-2"></i> Inovação e Conceito Institucional</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start text-lg"><i class="fas fa-users-medical text-teal-500 mt-1 mr-3"></i> **Apoio à Equipe Médica:** Pacientes tranquilos facilitam fluxos e procedimentos.</li>
+                            <li class="flex items-start text-lg"><i class="fas fa-laptop-medical text-teal-500 mt-1 mr-3"></i> **Humanização e Inovação:** Cuidado diferenciado, atual e reconhecido mundialmente.</li>
+                            <li class="flex items-start text-lg"><i class="fas fa-award text-teal-500 mt-1 mr-3"></i> **Melhoria no Conceito:** Intervenção vista como responsabilidade emocional e cuidado ampliado.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. IMPLEMENTAÇÃO E CONTRIBUIÇÃO -->
+        <section id="implementacao" class="py-16 md:py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 section-title">6. Como o serviço será implementado</h2>
+
+                <div class="grid md:grid-cols-5 gap-6 text-center mt-12">
+                    <div class="col-span-1 p-4 bg-white rounded-lg shadow-md border-b-4 border-cyan-500">
+                        <i class="fas fa-user-tie text-4xl text-cyan-600 mb-3"></i>
+                        <p class="font-bold">1. Apresentação à equipe</p>
+                    </div>
+                    <div class="col-span-1 p-4 bg-white rounded-lg shadow-md border-b-4 border-cyan-500">
+                        <i class="fas fa-user-check text-4xl text-cyan-600 mb-3"></i>
+                        <p class="font-bold">2. Seleção dos pacientes</p>
+                    </div>
+                    <div class="col-span-1 p-4 bg-white rounded-lg shadow-md border-b-4 border-cyan-500">
+                        <i class="fas fa-couch text-4xl text-cyan-600 mb-3"></i>
+                        <p class="font-bold">3. Realização das sessões</p>
+                    </div>
+                    <div class="col-span-1 p-4 bg-white rounded-lg shadow-md border-b-4 border-cyan-500">
+                        <i class="fas fa-chart-line text-4xl text-cyan-600 mb-3"></i>
+                        <p class="font-bold">4. Acompanhamento</p>
+                    </div>
+                    <div class="col-span-1 p-4 bg-white rounded-lg shadow-md border-b-4 border-cyan-500">
+                        <i class="fas fa-file-invoice text-4xl text-cyan-600 mb-3"></i>
+                        <p class="font-bold">5. Relatórios periódicos</p>
+                    </div>
+                </div>
+                
+                <div class="mt-16 border-t pt-10 grid md:grid-cols-2 gap-10">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-900">7. Minha Contribuição como Terapeuta</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Dedicação e presença acolhedora.</li>
+                            <li>Formação ampla e atualizada (Hipnose, PNL, Neurotransformação).</li>
+                            <li>Capacidade de estabelecer rapport rápido e profundo.</li>
+                            <li>Colaboração para diminuir uso de opioides e modular dor/estresse.</li>
+                            <li>Compromisso com o bem-estar emocional do paciente.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-900">8. Solicitação ao Hospital</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Autorização para iniciar um **projeto-piloto**.</li>
+                            <li>Apoio do setor de anestesiologia e enfermagem na organização.</li>
+                            <li>Um espaço tranquilo para as sessões de 20–30 minutos.</li>
+                            <li>Comunicação com o setor de humanização ou experiência do paciente.</li>
+                        </ul>
+                        <p class="mt-4 font-bold text-cyan-600">Este projeto pode ser implementado em 30 dias a partir da aprovação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. ANEXO - Referências Científicas -->
+        <section id="anexo" class="py-16 md:py-24 bg-cyan-900 text-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white section-title" style="border-left: 4px solid #fff; padding-left: 15px;">ANEXO – Referências Científicas Selecionadas</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8 mt-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 text-cyan-300">1. Redução de Dor e Ansiedade (Revisão Sistemática)</h3>
+                        <p class="text-gray-200">Revisão sistemática com 70 estudos e mais de seis mil pacientes demonstrando que a hipnose reduz dor, ansiedade e melhora desfechos pós-operatórios. <span class="text-sm italic">(Fonte: revisão científica internacional.)</span></p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 text-cyan-300">2. Menor Uso de Opioides (Ensaio Clínico)</h3>
+                        <p class="text-gray-200">Ensaio clínico controlado mostrando que pacientes submetidos à cirurgia oncológica utilizaram menos opioides quando receberam hipnose no período perioperatório. <span class="text-sm italic">(Fonte: estudo clínico recente.)</span></p>
+                    </div>
+                </div>
+                <p class="mt-8 text-center text-sm text-cyan-200">
+                    A aplicação hospitalar em países como França, Estados Unidos e Brasil, em centros como o Institut Curie, reforça a segurança, eficácia e aplicabilidade da hipnose clínica como prática integrativa no ambiente hospitalar.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 10. RODAPÉ E CONTATO -->
+    <footer id="contato" class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Dados para Contato</h2>
+            <p class="text-xl mb-6 text-cyan-400">Elaine Cristina Frontor</p>
+            
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-12 text-lg">
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-envelope text-cyan-400 mr-3"></i>
+                    <span>E-mail: frontorelaine@gmail.com</span>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i class="fab fa-whatsapp text-cyan-400 mr-3"></i>
+                    <span>Telefone: (19) 99128-1279</span>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-gray-700">
+                <p class="text-sm text-gray-400">
+                    Terapeuta Integrativa - Formações: Hipnose Clínica, PNL, Neurotransformação, Medicina Germânica.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
